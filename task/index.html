@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Bike Product Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="left-panel">
+            <div class="preview-container">
+                <img src="images/product1.jpg" alt="Product 1" class="preview-img" onclick="changeImage('images/product1.jpg')">
+                <img src="images/product2.jpg" alt="Product 2" class="preview-img" onclick="changeImage('images/product2.jpg')">
+                <img src="images/product3.jpg" alt="Product 3" class="preview-img" onclick="changeImage('images/product3.jpg')">
+                <img src="images/product2.jpg" alt="Product 4" class="preview-img" onclick="changeImage('images/product2.jpg')">
+            </div>
+        </div>
+
+        
+        <div class="main-image-container">
+            <img src="images/product1.jpg" alt="Main Product" id="main-image">
+        </div>
+        
+
+        
+       
+<div class="right-panel">
+    <div class="content">
+        <p class="brand">BY LILYPAD</p>
+        <h2>E-Bike ABC</h2>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <h5>Description:</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas adipisci laudantium rem quo delectus amet laborum repellat esse, tenetur culpa voluptatum quaerat dolor totam, minus qui natus! Omnis, itaque laudantium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tempore itaque explicabo nisi laborum rerum, aspernatur, eius dolorem quaerat libero quas corrupti! Suscipit quibusdam sunt soluta laborum earum nostrum ut commodi totam quod enim corporis tempora, maiores temporibus. In corporis sed dolores veritatis similique inventore error ab accusamus sequi ipsum!</p>
+        <h5>Why Choose E-Bike ABC?</h5>
+        <ul class="features">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, commodi? Asperiores, eveniet! Earum, pariatur assumenda!</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, velit.</li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, quod?</li>
+        </ul>
+
+        <p>City: 
+            <select name="city" id="city">
+                <option value="delhi">Delhi</option>
+                <option value="blr">Bangalore</option>
+                <option value="goa">Goa</option>
+            </select>
+        </p>
+        
+        <button class="buynow">buy now</button>
+        
+        
+        <div class="specs-container">
+            <div class="spec-btn" data-info="Range: 100 km on a single charge">Range</div>
+            <div class="spec-btn" data-info="Top Speed: 45 km/h">Top Speed</div>
+            <div class="spec-btn" data-info="Charge Time: 2 hours">Charge Time</div>
+            <div class="spec-btn" data-info="Motor Power: 250W">Power</div>
+        </div>
+        <div class="additional-info">
+            <h3>Specifications</h3>
+            <div class="spec-item">
+                <i class="fa fa-arrows-alt"></i>
+                <span class="spec-title">Dimensions</span>
+                <p>Height: 1.2m, Width: 0.8m</p>
+            </div>
+            <div class="spec-item">
+                <i class="fa fa-car"></i>
+                <span class="spec-title">Break System</span>
+                <p>Dual Disc Brakes</p>
+            </div>
+            <div class="spec-item">
+                <i class="fa fa-circle-o-notch"></i>
+                <span class="spec-title">Wheel</span>
+                <p>18-inch Alloy Wheels</p>
+            </div>
+            <div class="spec-item">
+                <i class="fa fa-tachometer"></i>
+                <span class="spec-title">Speed</span>
+                <p>Max Speed: 45 km/h</p>
+            </div>
+            <div class="spec-item">
+                <i class="fa fa-shield"></i>
+                <span class="spec-title">Warranty</span>
+                <p>3 Years Comprehensive Warranty</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
